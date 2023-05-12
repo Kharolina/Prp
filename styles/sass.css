@@ -1,0 +1,61 @@
+    /* Variables Sass */
+    :root {
+      --primary-color: #000066;
+      --secondary-color: #6c757d;
+      --font-family: Arial, sans-serif;
+      --header-font-size: 24px;
+      --body-font-size: 16px;
+    }
+
+    /* Estilos para la navegación */
+    .navbar {
+      background-color: var(--primary-color);
+      font-family: var(--font-family);
+    }
+
+    .navbar .navbar-brand {
+      font-size: var(--header-font-size);
+      color: white;
+    }
+
+    .navbar .navbar-brand:hover {
+      color: var(--secondary-color);
+    }
+
+    .navbar .nav-link {
+      font-size: var(--body-font-size);
+      color: white;
+    }
+
+    .navbar .nav-link:hover {
+      color: var(--secondary-color);
+    }
+
+    /* Estilos para el contenido principal */
+    .container {
+      text-align: center;
+    }
+
+    .container h1 {
+      font-size: var(--header-font-size);
+      color: var(--primary-color);
+    }
+
+    .container p {
+      font-size: var(--body-font-size);
+      color: var(--secondary-color);
+    }
+
+    /* Estilos para el formulario de búsqueda */
+    .form-inline {
+      margin-top: 20px;
+    }
+
+    .form-inline .form-control {
+      width: 300px;
+      margin-right: 10px;
+    }
+
+    .form-inline .btn {
+      font-size: var(--body-font-size);
+    }
