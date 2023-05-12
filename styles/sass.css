@@ -1,10 +1,10 @@
     /* Variables Sass */
     :root {
-      --primary-color: #000066;
-      --secondary-color: #6c757d;
-      --font-family: Arial, sans-serif;
-      --header-font-size: 24px;
-      --body-font-size: 16px;
+      --primary-color: #0da6b4f6;
+      --secondary-color: #3e4347;
+      --font-family: sans-serif;
+      --header-font-size: 22px;
+      --body-font-size: 14px;
     }
 
     /* Estilos para la navegación */
@@ -13,12 +13,12 @@
       font-family: var(--font-family);
     }
 
-    .navbar .navbar-brand {
+    .navbar > .navbar-brand {
       font-size: var(--header-font-size);
-      color: white;
+      color: rgb(60, 112, 233);
     }
 
-    .navbar .navbar-brand:hover {
+    .navbar > .navbar-brand:hover {
       color: var(--secondary-color);
     }
 
@@ -37,8 +37,8 @@
     }
 
     .container h1 {
-      font-size: var(--header-font-size);
-      color: var(--primary-color);
+      color:  var(--primary-color);
+      font: var(--header-font-size) var(--font-family);
     }
 
     .container p {
@@ -57,5 +57,5 @@
     }
 
     .form-inline .btn {
-      font-size: var(--body-font-size);
+      font: var(--body-font-size) var(--font-family);
     }
